@@ -17,3 +17,4 @@
 /deps/src
 /main/src/test
 pkg
+*.iml
