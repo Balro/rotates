@@ -10,3 +10,10 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# custom
+/.idea
+/conf/config.toml
+/deps/src
+/main/src/test
+pkg

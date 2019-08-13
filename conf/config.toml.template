@@ -1,0 +1,32 @@
+[service]
+    port = 9999    # rotate status port
+    interval = 60   # check interval
+    suppression_time = 900    # time between alerts, seconds.
+    alert_times = 3   # how many times a alert can try.
+
+[alerts]
+    [[alerts.dings]]
+        name = "钉钉群机器人"
+        token = "https://oapi.dingtalk.com/robot/send?access_token=abcsometokenabc"
+        at_all = false
+        at = [12345678901,]
+    [[alerts.alis]]
+        name = "阿里语音通知接口"
+        key = "keykeykey"
+        secret = "secsecsec"
+        show_number = 12345678901
+        called_numbers = [12345678901]
+        tts_code = "TTS_12345678"
+        params = { "name" = "", "message" = "problems"}
+
+[checks]
+    urls = [
+        {name="service1", url="http://host1:20001/health", expect="ok"},
+        {name="service2", url="http://host2:20002/health", expect="ok"},
+        {name="service3", url="http://host3:20003/health", expect="ok"},
+    ]
+    ports = [
+        {name="prog1", host="host1", port=10001},
+        {name="prog2", host="host2", port=10002},
+        {name="prog3", host="host2", port=10003},
+    ]
