@@ -18,3 +18,6 @@
 /main/src/test
 pkg
 *.iml
+*.tar
+*.gz
+*.tar.gz
