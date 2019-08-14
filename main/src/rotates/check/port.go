@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"log"
 	"net"
-	"rotate/conf"
+	"rotates/conf"
 	"strconv"
 	"time"
 )

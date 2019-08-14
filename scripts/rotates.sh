@@ -2,13 +2,13 @@
 source /etc/profile
 source ~/.bash_profile
 
-ROTATE_HOME=`cd -P $(dirname $0)/../;pwd`
-export ROTATE_HOME
+ROTATES_HOME=`cd -P $(dirname $0)/../;pwd`
+export ROTATES_HOME
 
-GO_FILE=$ROTATE_HOME/lib/rotate
-CONF_FILE=$ROTATE_HOME/conf/config.toml
-LOG_FILE=$ROTATE_HOME/logs/rotate.log
-PID_FILE=$ROTATE_HOME/pid
+GO_FILE=$ROTATES_HOME/lib/rotates
+CONF_FILE=$ROTATES_HOME/conf/config.toml
+LOG_FILE=$ROTATES_HOME/logs/rotates.log
+PID_FILE=$ROTATES_HOME/pid
 
 start() {
     pid=`cat $PID_FILE`

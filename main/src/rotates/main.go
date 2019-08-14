@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 	"os"
-	"rotate/alert"
-	"rotate/check"
-	"rotate/conf"
-	"rotate/status"
+	"rotates/alert"
+	"rotates/check"
+	"rotates/conf"
+	"rotates/status"
 )
 
 func main() {

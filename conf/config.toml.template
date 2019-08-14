@@ -14,8 +14,8 @@
         name = "阿里语音通知接口"
         key = "keykeykey"
         secret = "secsecsec"
-        show_number = 12345678901
-        called_numbers = [12345678901]
+        show_number = "12345678901"
+        called_numbers = ["12345678901"]
         tts_code = "TTS_12345678"
         params = { "name" = "", "message" = "problems"}
 

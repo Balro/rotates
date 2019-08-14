@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"rotate/conf"
+	"rotates/conf"
 )
 
 type DingAlert struct {

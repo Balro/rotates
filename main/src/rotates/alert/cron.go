@@ -2,7 +2,7 @@ package alert
 
 import (
 	"log"
-	"rotate/conf"
+	"rotates/conf"
 )
 
 type Alerter struct {

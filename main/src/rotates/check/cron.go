@@ -1,7 +1,7 @@
 package check
 
 import (
-	"rotate/conf"
+	"rotates/conf"
 	"time"
 )
 

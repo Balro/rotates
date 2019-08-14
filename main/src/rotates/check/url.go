@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 	"regexp"
-	"rotate/conf"
+	"rotates/conf"
 	"time"
 )
 

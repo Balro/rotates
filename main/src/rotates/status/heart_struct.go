@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"rotate/conf"
+	"rotates/conf"
 	"strconv"
 )
 

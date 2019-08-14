@@ -5,7 +5,7 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"log"
-	"rotate/conf"
+	"rotates/conf"
 )
 
 type AliAlert struct {
