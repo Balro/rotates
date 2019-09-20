@@ -1,8 +1,8 @@
 [service]
-    port = 9999    # rotate status port
-    interval = 60   # check interval
-    suppression_time = 900    # time between alerts, seconds.
-    alert_times = 3   # how many times a alert can try.
+    port = 9999    # rotates的rest端口，返回"ok"字符串，用于自身的存活监控。
+    interval = 60   # 检查间隔。
+    suppression_time = 900    # 两次告警的告警间隔，单位秒。
+    alert_times = 3   # 连续告警最大次数，连续报警超过该次数将停止报警，直到报警恢复。
 
 [alerts]
     [[alerts.dings]]
